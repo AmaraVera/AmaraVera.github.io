@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloqueio</title>
+    <link rel="stylesheet" href="1.css">
+    <style>
+        
+        body {
+            font-family: 'Pacifico', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background-color: #9F84BD;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #BFB3EA;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            opacity: 0.20;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #C2BBF0;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 0 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #B9A6E0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #F1E3F3;
+        }
+
+        nav ul li a:hover {
+            color: #EFEBF7;
+        }
+
+        .container {
+            width: 80%;
+            margin: 100px auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bloqueio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Portfólio</a></li>
+            <li><a href="#">Novidades</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Bloqueio</h2>
+        <form id="loginForm">
+            <label for="username">Nome:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="password">Senha:</label><br>
+            <input type="password" id="password" name="password"><br>
+            <input type="submit" value="Entrar">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Meu Site Pessoal</p>
+    </footer>
+    <script src="bloqueio.js"></script>
+</body>
+</html>
